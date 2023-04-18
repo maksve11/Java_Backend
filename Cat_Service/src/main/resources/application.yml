@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: flywayapp
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: "jdbc:postgresql://localhost:1433/tech_database?autoreconnect=true"
+    password: "postgres"
+    username: "postgres"
+    testOnBorrow: true
+    testWhileIdle: true
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 30000
+    validationQuery: SELECT 1
+    max-active: 15
+    max-idle: 10
+    max-wait: 8000
+  flyway:
+    enabled: true
