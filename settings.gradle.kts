@@ -1,2 +1,2 @@
-rootProject.name = "Java_Backend"
-include("Cat_Service")
+rootProject.name = "Java_work"
+include("CatService")

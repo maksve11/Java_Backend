@@ -1,1 +1,0 @@
-ALTER TABLE cat ADD COLUMN tail_length INT;
